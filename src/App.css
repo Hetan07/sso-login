@@ -1,0 +1,78 @@
+.landing-page{
+  padding: 30px 40px;
+  text-align: center;
+  font-size:32px;
+  font-weight: bolder;
+}
+.wrapper {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255, .2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+  backdrop-filter: blur(30px);
+  color : #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+
+.wrapper h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #45313D;
+}
+
+.wrapper .simple-text{
+  color: #45313D;
+  font-size:20px;
+  text-align: center;
+}
+
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  background: transparent;
+  padding: 20px 45px 20px 20px;
+  font-weight: bold;
+  font-size:16px;
+  color:#2C2C42;
+}
+
+.input-box input::placeholder{
+  color : #5864A6;
+  font-weight: bold;
+}
+
+.input-box .icon{
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: black;
+}
+
+.login-button {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  cursor:pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
