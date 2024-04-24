@@ -19,7 +19,7 @@ const Page2 = () => {
     <div className="wrapper">
       <h1 >Welcome to Page 2, {authUser.fullName}</h1>
         <div>
-            <button className="logout-button" onClick={logout}>
+            <button className="logout-button " onClick={logout}>
                 Logout
             </button>
             <div></div>

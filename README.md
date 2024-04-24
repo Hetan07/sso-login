@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Simple Web Page to implement SSO
 
 Docker image has been built using the 
